@@ -8,7 +8,10 @@ Group:		Applications/Networking
 Source0:	http://www.rhythm.cx/~steve/devel/tcptrack/release/%{version}/source/%{name}-%{version}.tar.gz
 # Source0-md5:	a4e2b556b8ea607d8bfd786e3f78f8f7
 URL:		http://www.rhythm.cx/~steve/devel/tcptrack/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	libpcap-devel
+BuildRequires:	libstdc++-devel
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
