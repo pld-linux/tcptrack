@@ -1,5 +1,5 @@
-Summary:	tcptrack is console based application which displays information about TCP connections.
-Summary(pl):	tcptrack jest konsolow± aplikacj± pokazuj±c± po³±czenia TCP.
+Summary:	tcptrack - console based application which displays information about TCP connections
+Summary(pl):	tcptrack - konsolowa aplikacj± pokazuj±ca informacje o po³±czeniach TCP
 Name:		tcptrack
 Version:	1.1.4
 Release:	1
@@ -8,8 +8,8 @@ Group:		Applications/Networking
 Source0:	http://www.rhythm.cx/~steve/devel/tcptrack/release/%{version}/source/%{name}-%{version}.tar.gz
 # Source0-md5:	a4e2b556b8ea607d8bfd786e3f78f8f7
 URL:		http://www.rhythm.cx/~steve/devel/tcptrack/
-BuildRequires:	ncurses-devel
 BuildRequires:	libpcap-devel
+BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,7 +31,6 @@ zu¿ycie pasma.
 %setup -q
 
 %build
-rm -f missing
 %{__aclocal}
 %{__autoheader}
 #%{__autoconf}
