@@ -21,10 +21,10 @@ displays source and destination addresses and ports, connection state,
 idle time, and bandwidth usage.
 
 %description -l pl
-tcptrack jest sniferem pokazuj±cym informacje o po³±czniach TCP które
-widzi na ¿±danym interfejsie. Wy¶wietla informacje na temat stanu
-po³±czenia w formie listy podobnej do programu top. Pokazuje adres
-¼ród³owy i docelowy, porty, stan po³±czenia, czas bezczynno¶ci i
+tcptrack jest sniferem pokazuj±cym informacje o po³±czeniach TCP,
+które widzi na ¿±danym interfejsie. Wy¶wietla informacje na temat
+stanu po³±czenia w formie listy podobnej do programu top. Pokazuje
+adres ¼ród³owy i docelowy, porty, stan po³±czenia, czas bezczynno¶ci i
 zu¿ycie pasma.
 
 %prep
