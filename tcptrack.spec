@@ -38,7 +38,7 @@ zu¿ycie pasma.
 %{__autoheader}
 #%{__autoconf}
 #%{__automake}
-CXXFLAGS="%{rpmcflags} -fexceptions -I%{_includedir}/ncurses"
+CXXFLAGS="%{rpmcflags} -fexceptions -I/usr/include/ncurses"
 %configure
 
 %{__make}
