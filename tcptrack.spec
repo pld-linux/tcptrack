@@ -1,5 +1,5 @@
 Summary:	tcptrack - console based application which displays information about TCP connections
-Summary(pl):	tcptrack - konsolowa aplikacja pokazuj±ca informacje o po³±czeniach TCP
+Summary(pl.UTF-8):   tcptrack - konsolowa aplikacja pokazujÄ…ca informacje o poÅ‚Ä…czeniach TCP
 Name:		tcptrack
 Version:	1.1.5
 Release:	1
@@ -23,12 +23,12 @@ list of connections in a manner similar to the unix 'top' command. It
 displays source and destination addresses and ports, connection state,
 idle time, and bandwidth usage.
 
-%description -l pl
-tcptrack jest sniferem pokazuj±cym informacje o po³±czeniach TCP,
-które widzi na ¿±danym interfejsie. Wy¶wietla informacje na temat
-stanu po³±czenia w formie listy podobnej do programu top. Pokazuje
-adres ¼ród³owy i docelowy, porty, stan po³±czenia, czas bezczynno¶ci i
-zu¿ycie pasma.
+%description -l pl.UTF-8
+tcptrack jest sniferem pokazujÄ…cym informacje o poÅ‚Ä…czeniach TCP,
+ktÃ³re widzi na Å¼Ä…danym interfejsie. WyÅ›wietla informacje na temat
+stanu poÅ‚Ä…czenia w formie listy podobnej do programu top. Pokazuje
+adres ÅºrÃ³dÅ‚owy i docelowy, porty, stan poÅ‚Ä…czenia, czas bezczynnoÅ›ci i
+zuÅ¼ycie pasma.
 
 %prep
 %setup -q
