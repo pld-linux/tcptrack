@@ -2,7 +2,7 @@ Summary:	tcptrack - console based application which displays information about T
 Summary(pl.UTF-8):	tcptrack - konsolowa aplikacja pokazująca informacje o połączeniach TCP
 Name:		tcptrack
 Version:	1.3.0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/Networking
 Source0:	http://www.rhythm.cx/~steve/devel/tcptrack/release/%{version}/source/%{name}-%{version}.tar.gz
