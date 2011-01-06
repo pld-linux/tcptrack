@@ -43,7 +43,8 @@ zużycie pasma.
 CXXFLAGS="%{rpmcflags} -fexceptions -I/usr/include/ncurses"
 %configure
 
-%{__make}
+%{__make} \
+	LDADD="-ltinfo"
 
 %install
 rm -rf $RPM_BUILD_ROOT
