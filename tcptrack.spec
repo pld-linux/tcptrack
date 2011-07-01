@@ -5,7 +5,7 @@ Version:	1.4.0
 Release:	1
 License:	GPL v2
 Group:		Applications/Networking
-Source0:	http://www.rhythm.cx/~steve/devel/tcptrack/release/%{version}/source/%{name}-%{version}.tar.gz
+# Source0:	http://www.rhythm.cx/~steve/devel/tcptrack/release/%{version}/source/%{name}-%{version}.tar.gz
 # Source0-md5:	c177a4f170eefb2c3719965694496228
 Patch0:		%{name}-gcc4.patch
 Patch1:		%{name}-Werror.patch
