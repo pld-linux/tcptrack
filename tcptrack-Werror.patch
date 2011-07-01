@@ -1,0 +1,24 @@
+diff -ur tcptrack-1.4.0-orig/src/Makefile.am tcptrack-1.4.0/src/Makefile.am
+--- tcptrack-1.4.0-orig/src/Makefile.am	2010-09-28 01:02:01.000000000 +0200
++++ tcptrack-1.4.0/src/Makefile.am	2011-07-01 11:31:01.694342908 +0200
+@@ -25,5 +25,5 @@
+ EXTRA_DIST = tcptrack.1
+ 
+ # no-deprecated required due to hash_map
+-AM_CXXFLAGS = -Werror -Wno-deprecated -Wall
++AM_CXXFLAGS = -Wno-deprecated -Wall
+ 
+Tylko w tcptrack-1.4.0/src: Makefile.am~
+diff -ur tcptrack-1.4.0-orig/src/Makefile.in tcptrack-1.4.0/src/Makefile.in
+--- tcptrack-1.4.0-orig/src/Makefile.in	2010-09-29 03:31:38.000000000 +0200
++++ tcptrack-1.4.0/src/Makefile.in	2011-07-01 11:31:13.448219591 +0200
+@@ -148,7 +148,7 @@
+ EXTRA_DIST = tcptrack.1
+ 
+ # no-deprecated required due to hash_map
+-AM_CXXFLAGS = -Werror -Wno-deprecated -Wall
++AM_CXXFLAGS = -Wno-deprecated -Wall
+ subdir = src
+ ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+ mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+Tylko w tcptrack-1.4.0/src: Makefile.in~
